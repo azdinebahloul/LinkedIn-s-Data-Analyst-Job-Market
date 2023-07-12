@@ -132,7 +132,7 @@ We have addressed the issue of **null values** in the "Seniority level" column b
 To tackle the problem of missing values in the "Employment type," "Industries," and "Job function" columns, a similar approach was applied.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20144001.png" alt="Image6" width="50%">
+  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20144001.png" alt="Image6" width="30%">
 </p>
 
 We replaced empty spaces with the value "Not specified" to indicate missing information consistently. This modification guarantees that there are no null or empty values in these columns, facilitating the analysis process.
@@ -143,7 +143,7 @@ df[column_to_replace] = df[column_to_replace].fillna("Not specified")
 ```
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20144207.png" alt="Image7" width="50%">
+  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20144207.png" alt="Image7" width="30%">
 </p>
 
 With these updates, the database now provides a more organized and comprehensive representation of the data. The cleaned dataset enables smoother analysis and decision-making by ensuring that essential information is available or clearly marked as missing in the respective columns.
@@ -182,7 +182,7 @@ What struck us as intriguing was the nearly **balanced distribution** among the 
 Moving forward, our analysis turned towards understanding the salary landscape within the dataset. By considering various salary variables, such as annual, hourly, and monthly wages, we calculated the average annual salary to gauge the overall compensation range. The resulting figure, approximately **$89,000**, served as a reliable benchmark for assessing salary levels across different job postings.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20150519.png" alt="Image9" width="50%">
+  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-06-21%20150519.png" alt="Image9" width="30%">
 </p>
 
 Notably, our findings aligned harmoniously with renowned studies, affirming the accuracy and credibility of our dataset. The average salary falling within the expected range, $90,000, bolstered our confidence and propelled us towards uncovering the intricate relationship between job requirements, experience, and compensation.
@@ -229,7 +229,7 @@ Ultimately, this detailed analysis of the data analyst market in the United Stat
 ## Dashboard
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-05-25%20155549.png" alt="Image13" width="50%">
+  <img src="https://github.com/azdinebahloul/LinkedIn-s-Data-Analyst-Job-Market/blob/main/Image/Capture%20d'%C3%A9cran%202023-05-25%20155549.png" alt="Image13" width="80%">
 </p>
 
 
